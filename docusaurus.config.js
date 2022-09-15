@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'DevNotes',
   tagline: 'Developer Notes by PeterOnCode',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://devnotes-peteroncode.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -65,7 +65,7 @@ const config = {
           items: [
             {
               type: 'doc',
-              docId: 'intro',
+              docId: 'contents',
               position: 'left',
               label: 'Tutorial',
             },
@@ -85,7 +85,7 @@ const config = {
               items: [
                 {
                   label: 'Tutorial',
-                  to: '/docs/intro',
+                  to: '/docs/contents',
                 },
               ],
             },
